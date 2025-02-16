@@ -1,0 +1,2597 @@
+{
+  "phase": "Phase 2 - Maximum Effort (Low volume, high intensity)",
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        {
+          "day": "Push #1",
+          "workouts": [
+            {
+              "exercise": "Bench Press",
+              "video": "https://youtu.be/vcBig73ojpE?t=134",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                },
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                }
+              ],
+              "notes": "Set up a comfortable arch, quick pause on the chest and explode up on each rep"
+            },
+            {
+              "exercise": "High-Incline Smith Machine Press",
+              "video": "https://youtu.be/egBQ9Svdnok",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Incline DB Press",
+                  "video": "https://www.youtube.com/watch?v=p2t9daxLpB8"
+                },
+                {
+                  "option": "Incline Machine Press",
+                  "video": "https://youtu.be/b8fYnZ-usP0"
+                }
+              ],
+              "notes": "Set the bench at a 45-60° incline, touch the bar to your upper chest with control"
+            },
+            {
+              "exercise": "Egyptian Cable Lateral Raise",
+              "video": "https://youtu.be/SJqInYJcg5k?t=653",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Machine Lateral Raise",
+                  "video": "https://youtu.be/-9QsrJ542ao"
+                }
+              ],
+              "notes": "Lean away from the cable. Focus on squeezing your delts."
+            },
+            {
+              "exercise": "Overhead Cable Triceps Extension",
+              "video": "https://youtu.be/qIW3z-ydg-M",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Floor Skull Crusher",
+                  "video": "https://youtu.be/_IlI2plHp9g"
+                },
+                {
+                  "option": "DB French Press",
+                  "video": "https://youtu.be/K4E8CXajqfQ"
+                }
+              ],
+              "notes": "Do both arms at once, resist the negative"
+            },
+            {
+              "exercise": "Cable Triceps Kickback",
+              "video": "https://youtu.be/94DXwlcX8Po?t=327",
+              "warm_up_sets": 1,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                },
+                {
+                  "option": "Triceps Pressdown",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=106"
+                }
+              ],
+              "notes": "Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)"
+            }
+          ]
+        },
+        {
+          "day": "Pull #1",
+          "workouts": [
+            {
+              "exercise": "Neutral-Grip Lat Pulldown",
+              "video": "https://youtu.be/12xHxUnBEiI?t=240",
+              "warm_up_sets": 3,
+              "working_sets": 3,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Neutral-Grip Pull-Up",
+                  "video": "https://youtu.be/3FnK1F28UBg"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Pull your elbows down against your sides"
+            },
+            {
+              "exercise": "Pendlay Row",
+              "video": "https://youtu.be/axoeDmW0oAY?t=185",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Meadows Row",
+                  "video": "https://youtu.be/f2JDJV0AnyY?t=336"
+                },
+                {
+                  "option": "Single-Arm Row",
+                  "video": "https://youtu.be/djKXLt7kv7Q?t=115"
+                }
+              ],
+              "notes": "Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum"
+            },
+            {
+              "exercise": "Reverse Pec Deck",
+              "video": "https://youtu.be/qfc70k40318?t=259",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Reverse Cable Flye",
+                  "video": "https://youtu.be/uCV40OQMGpM"
+                },
+                {
+                  "option": "Bent-Over Reverse DB Flye",
+                  "video": "https://youtu.be/qfc70k40318?t=311"
+                }
+              ],
+              "notes": "Swing the weight \"out\", not \"back\""
+            },
+            {
+              "exercise": "EZ-Bar Curl",
+              "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Arc the bar \"out\" not \"up\", focus on squeezing your biceps"
+            },
+            {
+              "exercise": "Hammer Cheat Curl",
+              "video": "https://youtu.be/qVek72z3F1U?t=536",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Inverse Zottman Curl",
+                  "video": "https://youtu.be/oU0Lb2dD_js"
+                },
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                }
+              ],
+              "notes": "You can use slight momentum on the concentric, but control the eccentric with your elbows stationary"
+            }
+          ]
+        },
+        {
+          "day": "Legs #1",
+          "workouts": [
+            {
+              "exercise": "Squat or Machine Squat",
+              "video": "https://youtu.be/bEv6CCg2BC8?t=147",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Sit back and down, keep your upper back tight to the bar"
+            },
+            {
+              "exercise": "Barbell RDL",
+              "video": "https://youtu.be/_oyxCn2iSjU?t=95",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB RDL",
+                  "video": "https://youtu.be/V5u2AP9wBwE"
+                },
+                {
+                  "option": "45° Hyperextension",
+                  "video": "https://youtu.be/J46aPqFl0WE?t=178"
+                }
+              ],
+              "notes": "Maintain a neutral lower back, set your hips back, don't allow your spine to round"
+            },
+            {
+              "exercise": "Leg Extension",
+              "video": "https://youtu.be/ljO4jkwv8wQ?t=203",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Focus on squeezing your quads to make the weight move."
+            },
+            {
+              "exercise": "Seated Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=311",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Standing Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=162"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Cable Crunch",
+              "video": "https://youtu.be/2RrGnjxSsiA?t=124",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Plate-Weighted Crunch",
+                  "video": "https://youtu.be/PRcz1uIkqko"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Push #2",
+          "workouts": [
+            {
+              "exercise": "Seated DB Shoulder Press",
+              "video": "https://youtu.be/ae9IxwoEpQ8?t=507",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Shoulder Press",
+                  "video": "https://www.youtube.com/watch?v=flr4ohSl0j8"
+                },
+                {
+                  "option": "Standing DB Arnold Press",
+                  "video": "https://www.youtube.com/watch?v=zOpA1Op0zvc"
+                }
+              ],
+              "notes": "Bring the dumbbells all the way down, keep your torso upright"
+            },
+            {
+              "exercise": "Weighted Dip",
+              "video": "https://youtu.be/yN6Q1UI_xkE?t=75",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                },
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                }
+              ],
+              "notes": "Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip"
+            },
+            {
+              "exercise": "Machine Lateral Raise",
+              "video": "https://youtu.be/-9QsrJ542ao",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Cable Lateral Raise",
+                  "video": "https://youtu.be/SJqInYJcg5k?t=653"
+                }
+              ],
+              "notes": "Focus on squeezing your lateral delt to move the weight"
+            },
+            {
+              "exercise": "Triceps Pressdown",
+              "video": "https://youtu.be/94DXwlcX8Po?t=106",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Triceps Kickback",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=327"
+                },
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                }
+              ],
+              "notes": "Focus on squeezing your triceps to move the weight"
+            }
+          ]
+        },
+        {
+          "day": "Pull #2",
+          "workouts": [
+            {
+              "exercise": "Wide-Grip Pull-Up",
+              "video": "https://youtu.be/a4N566qMdIY",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Wide-Grip Lat Pulldown",
+                  "video": "https://youtu.be/qVek72z3F1U?t=927"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible."
+            },
+            {
+              "exercise": "Close-Grip Seated Cable Row",
+              "video": "https://youtu.be/PAXkl-AdJFg?t=335",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "T-Bar Row",
+                  "video": "https://youtu.be/160n9FBX84s"
+                },
+                {
+                  "option": "Incline Chest-Supported DB Row",
+                  "video": "https://youtu.be/bsx8PIGIuaI"
+                }
+              ],
+              "notes": "Focus on squeezing your shoulder blades together, drive your elbows down and back."
+            },
+            {
+              "exercise": "Machine Shrug",
+              "video": "https://youtu.be/B7kptxZ-1Do",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Shrug-In",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=354"
+                },
+                {
+                  "option": "DB Shrug",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=327"
+                }
+              ],
+              "notes": "Shrug up and in. Pull your shoulders up to your ears."
+            },
+            {
+              "exercise": "Alternating DB Curl",
+              "video": "https://youtu.be/i1YgFZB6alI?t=487",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "EZ Bar Curl",
+                  "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm."
+            },
+            {
+              "exercise": "1-Arm DB Preacher Curl",
+              "video": "https://youtu.be/x4YNi4nRboU?t=268",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Spider Curl",
+                  "video": "https://www.youtube.com/watch?v=ebyOmAZUqzo&t=698s"
+                },
+                {
+                  "option": "Bayesian Cable Curl",
+                  "video": "https://youtu.be/acC5hLyjEDI"
+                }
+              ],
+              "notes": "Here, do all 6-8 reps with one arm at a time (do not alternate)"
+            }
+          ]
+        },
+        {
+          "day": "Legs #2",
+          "workouts": [
+            {
+              "exercise": "Hack Squat",
+              "video": "https://youtu.be/wEgQUCdtFLg",
+              "warm_up_sets": "3-4",
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": "9-10",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Allow your knees to come forward (past your toes), focus the tension on your quads"
+            },
+            {
+              "exercise": "Dumbbell Walking Lunge",
+              "video": "https://youtu.be/Y4Vv2ASsyhs?t=536",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting."
+            },
+            {
+              "exercise": "Seated Leg Curl",
+              "video": "https://youtu.be/2CMmuH4qJh0",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Lying Leg Curl",
+                  "video": "https://www.youtube.com/watch?v=e_48W0vlU58&feature=youtu.be"
+                },
+                {
+                  "option": "Nordic Ham Curl",
+                  "video": "https://youtu.be/qVek72z3F1U?t=683"
+                }
+              ],
+              "notes": "Focus on squeezing your hamstrings to move the weight"
+            },
+            {
+              "exercise": "Standing Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=162",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Seated Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=311"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Decline Plate-Weighted Crunch",
+              "video": "https://youtu.be/Aos574-Brzw",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Crunch",
+                  "video": "https://youtu.be/2RrGnjxSsiA?t=124"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Mandatory Rest Day",
+          "workouts": []
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "days": [
+        {
+          "day": "Push #1",
+          "workouts": [
+            {
+              "exercise": "Bench Press",
+              "video": "https://youtu.be/vcBig73ojpE?t=134",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                },
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                }
+              ],
+              "notes": "Set up a comfortable arch, quick pause on the chest and explode up on each rep"
+            },
+            {
+              "exercise": "High-Incline Smith Machine Press",
+              "video": "https://youtu.be/egBQ9Svdnok",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Incline DB Press",
+                  "video": "https://www.youtube.com/watch?v=p2t9daxLpB8"
+                },
+                {
+                  "option": "Incline Machine Press",
+                  "video": "https://youtu.be/b8fYnZ-usP0"
+                }
+              ],
+              "notes": "Set the bench at a 45-60° incline, touch the bar to your upper chest with control"
+            },
+            {
+              "exercise": "Egyptian Cable Lateral Raise",
+              "video": "https://youtu.be/SJqInYJcg5k?t=653",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Machine Lateral Raise",
+                  "video": "https://youtu.be/-9QsrJ542ao"
+                }
+              ],
+              "notes": "Lean away from the cable. Focus on squeezing your delts."
+            },
+            {
+              "exercise": "Overhead Cable Triceps Extension",
+              "video": "https://youtu.be/qIW3z-ydg-M",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Floor Skull Crusher",
+                  "video": "https://youtu.be/_IlI2plHp9g"
+                },
+                {
+                  "option": "DB French Press",
+                  "video": "https://youtu.be/K4E8CXajqfQ"
+                }
+              ],
+              "notes": "Do both arms at once, resist the negative"
+            },
+            {
+              "exercise": "Cable Triceps Kickback",
+              "video": "https://youtu.be/94DXwlcX8Po?t=327",
+              "warm_up_sets": 1,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                },
+                {
+                  "option": "Triceps Pressdown",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=106"
+                }
+              ],
+              "notes": "Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)"
+            }
+          ]
+        },
+        {
+          "day": "Pull #1",
+          "workouts": [
+            {
+              "exercise": "Neutral-Grip Lat Pulldown",
+              "video": "https://youtu.be/12xHxUnBEiI?t=240",
+              "warm_up_sets": 3,
+              "working_sets": 3,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Neutral-Grip Pull-Up",
+                  "video": "https://youtu.be/3FnK1F28UBg"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Pull your elbows down against your sides"
+            },
+            {
+              "exercise": "Pendlay Row",
+              "video": "https://youtu.be/axoeDmW0oAY?t=185",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Meadows Row",
+                  "video": "https://youtu.be/f2JDJV0AnyY?t=336"
+                },
+                {
+                  "option": "Single-Arm Row",
+                  "video": "https://youtu.be/djKXLt7kv7Q?t=115"
+                }
+              ],
+              "notes": "Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum"
+            },
+            {
+              "exercise": "Reverse Pec Deck",
+              "video": "https://youtu.be/qfc70k40318?t=259",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Reverse Cable Flye",
+                  "video": "https://youtu.be/uCV40OQMGpM"
+                },
+                {
+                  "option": "Bent-Over Reverse DB Flye",
+                  "video": "https://youtu.be/qfc70k40318?t=311"
+                }
+              ],
+              "notes": "Swing the weight \"out\", not \"back\""
+            },
+            {
+              "exercise": "EZ-Bar Curl",
+              "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Arc the bar \"out\" not \"up\", focus on squeezing your biceps"
+            },
+            {
+              "exercise": "Hammer Cheat Curl",
+              "video": "https://youtu.be/qVek72z3F1U?t=536",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Inverse Zottman Curl",
+                  "video": "https://youtu.be/oU0Lb2dD_js"
+                },
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                }
+              ],
+              "notes": "You can use slight momentum on the concentric, but control the eccentric with your elbows stationary"
+            }
+          ]
+        },
+        {
+          "day": "Legs #1",
+          "workouts": [
+            {
+              "exercise": "Squat or Machine Squat",
+              "video": "https://youtu.be/bEv6CCg2BC8?t=147",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Sit back and down, keep your upper back tight to the bar"
+            },
+            {
+              "exercise": "Barbell RDL",
+              "video": "https://youtu.be/_oyxCn2iSjU?t=95",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB RDL",
+                  "video": "https://youtu.be/V5u2AP9wBwE"
+                },
+                {
+                  "option": "45° Hyperextension",
+                  "video": "https://youtu.be/J46aPqFl0WE?t=178"
+                }
+              ],
+              "notes": "Maintain a neutral lower back, set your hips back, don't allow your spine to round"
+            },
+            {
+              "exercise": "Leg Extension",
+              "video": "https://youtu.be/ljO4jkwv8wQ?t=203",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Focus on squeezing your quads to make the weight move."
+            },
+            {
+              "exercise": "Seated Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=311",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Standing Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=162"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Cable Crunch",
+              "video": "https://youtu.be/2RrGnjxSsiA?t=124",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Plate-Weighted Crunch",
+                  "video": "https://youtu.be/PRcz1uIkqko"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Push #2",
+          "workouts": [
+            {
+              "exercise": "Seated DB Shoulder Press",
+              "video": "https://youtu.be/ae9IxwoEpQ8?t=507",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Shoulder Press",
+                  "video": "https://www.youtube.com/watch?v=flr4ohSl0j8"
+                },
+                {
+                  "option": "Standing DB Arnold Press",
+                  "video": "https://www.youtube.com/watch?v=zOpA1Op0zvc"
+                }
+              ],
+              "notes": "Bring the dumbbells all the way down, keep your torso upright"
+            },
+            {
+              "exercise": "Weighted Dip",
+              "video": "https://youtu.be/yN6Q1UI_xkE?t=75",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                },
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                }
+              ],
+              "notes": "Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip"
+            },
+            {
+              "exercise": "Machine Lateral Raise",
+              "video": "https://youtu.be/-9QsrJ542ao",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Cable Lateral Raise",
+                  "video": "https://youtu.be/SJqInYJcg5k?t=653"
+                }
+              ],
+              "notes": "Focus on squeezing your lateral delt to move the weight"
+            },
+            {
+              "exercise": "Triceps Pressdown",
+              "video": "https://youtu.be/94DXwlcX8Po?t=106",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Triceps Kickback",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=327"
+                },
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                }
+              ],
+              "notes": "Focus on squeezing your triceps to move the weight"
+            }
+          ]
+        },
+        {
+          "day": "Pull #2",
+          "workouts": [
+            {
+              "exercise": "Wide-Grip Pull-Up",
+              "video": "https://youtu.be/a4N566qMdIY",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Wide-Grip Lat Pulldown",
+                  "video": "https://youtu.be/qVek72z3F1U?t=927"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible."
+            },
+            {
+              "exercise": "Close-Grip Seated Cable Row",
+              "video": "https://youtu.be/PAXkl-AdJFg?t=335",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "T-Bar Row",
+                  "video": "https://youtu.be/160n9FBX84s"
+                },
+                {
+                  "option": "Incline Chest-Supported DB Row",
+                  "video": "https://youtu.be/bsx8PIGIuaI"
+                }
+              ],
+              "notes": "Focus on squeezing your shoulder blades together, drive your elbows down and back."
+            },
+            {
+              "exercise": "Machine Shrug",
+              "video": "https://youtu.be/B7kptxZ-1Do",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Shrug-In",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=354"
+                },
+                {
+                  "option": "DB Shrug",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=327"
+                }
+              ],
+              "notes": "Shrug up and in. Pull your shoulders up to your ears."
+            },
+            {
+              "exercise": "Alternating DB Curl",
+              "video": "https://youtu.be/i1YgFZB6alI?t=487",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "EZ Bar Curl",
+                  "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm."
+            },
+            {
+              "exercise": "1-Arm DB Preacher Curl",
+              "video": "https://youtu.be/x4YNi4nRboU?t=268",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Spider Curl",
+                  "video": "https://www.youtube.com/watch?v=ebyOmAZUqzo&t=698s"
+                },
+                {
+                  "option": "Bayesian Cable Curl",
+                  "video": "https://youtu.be/acC5hLyjEDI"
+                }
+              ],
+              "notes": "Here, do all 6-8 reps with one arm at a time (do not alternate)"
+            }
+          ]
+        },
+        {
+          "day": "Legs #2",
+          "workouts": [
+            {
+              "exercise": "Hack Squat",
+              "video": "https://youtu.be/wEgQUCdtFLg",
+              "warm_up_sets": "3-4",
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": "9-10",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Allow your knees to come forward (past your toes), focus the tension on your quads"
+            },
+            {
+              "exercise": "Dumbbell Walking Lunge",
+              "video": "https://youtu.be/Y4Vv2ASsyhs?t=536",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting."
+            },
+            {
+              "exercise": "Seated Leg Curl",
+              "video": "https://youtu.be/2CMmuH4qJh0",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Lying Leg Curl",
+                  "video": "https://www.youtube.com/watch?v=e_48W0vlU58&feature=youtu.be"
+                },
+                {
+                  "option": "Nordic Ham Curl",
+                  "video": "https://youtu.be/qVek72z3F1U?t=683"
+                }
+              ],
+              "notes": "Focus on squeezing your hamstrings to move the weight"
+            },
+            {
+              "exercise": "Standing Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=162",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Seated Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=311"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Decline Plate-Weighted Crunch",
+              "video": "https://youtu.be/Aos574-Brzw",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Crunch",
+                  "video": "https://youtu.be/2RrGnjxSsiA?t=124"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Mandatory Rest Day",
+          "workouts": []
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        {
+          "day": "Push #1",
+          "workouts": [
+            {
+              "exercise": "Bench Press",
+              "video": "https://youtu.be/vcBig73ojpE?t=134",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                },
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                }
+              ],
+              "notes": "Set up a comfortable arch, quick pause on the chest and explode up on each rep"
+            },
+            {
+              "exercise": "High-Incline Smith Machine Press",
+              "video": "https://youtu.be/egBQ9Svdnok",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Incline DB Press",
+                  "video": "https://www.youtube.com/watch?v=p2t9daxLpB8"
+                },
+                {
+                  "option": "Incline Machine Press",
+                  "video": "https://youtu.be/b8fYnZ-usP0"
+                }
+              ],
+              "notes": "Set the bench at a 45-60° incline, touch the bar to your upper chest with control"
+            },
+            {
+              "exercise": "Egyptian Cable Lateral Raise",
+              "video": "https://youtu.be/SJqInYJcg5k?t=653",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Machine Lateral Raise",
+                  "video": "https://youtu.be/-9QsrJ542ao"
+                }
+              ],
+              "notes": "Lean away from the cable. Focus on squeezing your delts."
+            },
+            {
+              "exercise": "Overhead Cable Triceps Extension",
+              "video": "https://youtu.be/qIW3z-ydg-M",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Floor Skull Crusher",
+                  "video": "https://youtu.be/_IlI2plHp9g"
+                },
+                {
+                  "option": "DB French Press",
+                  "video": "https://youtu.be/K4E8CXajqfQ"
+                }
+              ],
+              "notes": "Do both arms at once, resist the negative"
+            },
+            {
+              "exercise": "Cable Triceps Kickback",
+              "video": "https://youtu.be/94DXwlcX8Po?t=327",
+              "warm_up_sets": 1,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                },
+                {
+                  "option": "Triceps Pressdown",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=106"
+                }
+              ],
+              "notes": "Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)"
+            }
+          ]
+        },
+        {
+          "day": "Pull #1",
+          "workouts": [
+            {
+              "exercise": "Neutral-Grip Lat Pulldown",
+              "video": "https://youtu.be/12xHxUnBEiI?t=240",
+              "warm_up_sets": 3,
+              "working_sets": 3,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Neutral-Grip Pull-Up",
+                  "video": "https://youtu.be/3FnK1F28UBg"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Pull your elbows down against your sides"
+            },
+            {
+              "exercise": "Pendlay Row",
+              "video": "https://youtu.be/axoeDmW0oAY?t=185",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Meadows Row",
+                  "video": "https://youtu.be/f2JDJV0AnyY?t=336"
+                },
+                {
+                  "option": "Single-Arm Row",
+                  "video": "https://youtu.be/djKXLt7kv7Q?t=115"
+                }
+              ],
+              "notes": "Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum"
+            },
+            {
+              "exercise": "Reverse Pec Deck",
+              "video": "https://youtu.be/qfc70k40318?t=259",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Reverse Cable Flye",
+                  "video": "https://youtu.be/uCV40OQMGpM"
+                },
+                {
+                  "option": "Bent-Over Reverse DB Flye",
+                  "video": "https://youtu.be/qfc70k40318?t=311"
+                }
+              ],
+              "notes": "Swing the weight \"out\", not \"back\""
+            },
+            {
+              "exercise": "EZ-Bar Curl",
+              "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Arc the bar \"out\" not \"up\", focus on squeezing your biceps"
+            },
+            {
+              "exercise": "Hammer Cheat Curl",
+              "video": "https://youtu.be/qVek72z3F1U?t=536",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Inverse Zottman Curl",
+                  "video": "https://youtu.be/oU0Lb2dD_js"
+                },
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                }
+              ],
+              "notes": "You can use slight momentum on the concentric, but control the eccentric with your elbows stationary"
+            }
+          ]
+        },
+        {
+          "day": "Legs #1",
+          "workouts": [
+            {
+              "exercise": "Squat or Machine Squat",
+              "video": "https://youtu.be/bEv6CCg2BC8?t=147",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Sit back and down, keep your upper back tight to the bar"
+            },
+            {
+              "exercise": "Barbell RDL",
+              "video": "https://youtu.be/_oyxCn2iSjU?t=95",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB RDL",
+                  "video": "https://youtu.be/V5u2AP9wBwE"
+                },
+                {
+                  "option": "45° Hyperextension",
+                  "video": "https://youtu.be/J46aPqFl0WE?t=178"
+                }
+              ],
+              "notes": "Maintain a neutral lower back, set your hips back, don't allow your spine to round"
+            },
+            {
+              "exercise": "Leg Extension",
+              "video": "https://youtu.be/ljO4jkwv8wQ?t=203",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Focus on squeezing your quads to make the weight move."
+            },
+            {
+              "exercise": "Seated Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=311",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Standing Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=162"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Cable Crunch",
+              "video": "https://youtu.be/2RrGnjxSsiA?t=124",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Plate-Weighted Crunch",
+                  "video": "https://youtu.be/PRcz1uIkqko"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Push #2",
+          "workouts": [
+            {
+              "exercise": "Seated DB Shoulder Press",
+              "video": "https://youtu.be/ae9IxwoEpQ8?t=507",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Shoulder Press",
+                  "video": "https://www.youtube.com/watch?v=flr4ohSl0j8"
+                },
+                {
+                  "option": "Standing DB Arnold Press",
+                  "video": "https://www.youtube.com/watch?v=zOpA1Op0zvc"
+                }
+              ],
+              "notes": "Bring the dumbbells all the way down, keep your torso upright"
+            },
+            {
+              "exercise": "Weighted Dip",
+              "video": "https://youtu.be/yN6Q1UI_xkE?t=75",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                },
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                }
+              ],
+              "notes": "Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip"
+            },
+            {
+              "exercise": "Machine Lateral Raise",
+              "video": "https://youtu.be/-9QsrJ542ao",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Cable Lateral Raise",
+                  "video": "https://youtu.be/SJqInYJcg5k?t=653"
+                }
+              ],
+              "notes": "Focus on squeezing your lateral delt to move the weight"
+            },
+            {
+              "exercise": "Triceps Pressdown",
+              "video": "https://youtu.be/94DXwlcX8Po?t=106",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Triceps Kickback",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=327"
+                },
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                }
+              ],
+              "notes": "Focus on squeezing your triceps to move the weight"
+            }
+          ]
+        },
+        {
+          "day": "Pull #2",
+          "workouts": [
+            {
+              "exercise": "Wide-Grip Pull-Up",
+              "video": "https://youtu.be/a4N566qMdIY",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Wide-Grip Lat Pulldown",
+                  "video": "https://youtu.be/qVek72z3F1U?t=927"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible."
+            },
+            {
+              "exercise": "Close-Grip Seated Cable Row",
+              "video": "https://youtu.be/PAXkl-AdJFg?t=335",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "T-Bar Row",
+                  "video": "https://youtu.be/160n9FBX84s"
+                },
+                {
+                  "option": "Incline Chest-Supported DB Row",
+                  "video": "https://youtu.be/bsx8PIGIuaI"
+                }
+              ],
+              "notes": "Focus on squeezing your shoulder blades together, drive your elbows down and back."
+            },
+            {
+              "exercise": "Machine Shrug",
+              "video": "https://youtu.be/B7kptxZ-1Do",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Shrug-In",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=354"
+                },
+                {
+                  "option": "DB Shrug",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=327"
+                }
+              ],
+              "notes": "Shrug up and in. Pull your shoulders up to your ears."
+            },
+            {
+              "exercise": "Alternating DB Curl",
+              "video": "https://youtu.be/i1YgFZB6alI?t=487",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "EZ Bar Curl",
+                  "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm."
+            },
+            {
+              "exercise": "1-Arm DB Preacher Curl",
+              "video": "https://youtu.be/x4YNi4nRboU?t=268",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Spider Curl",
+                  "video": "https://www.youtube.com/watch?v=ebyOmAZUqzo&t=698s"
+                },
+                {
+                  "option": "Bayesian Cable Curl",
+                  "video": "https://youtu.be/acC5hLyjEDI"
+                }
+              ],
+              "notes": "Here, do all 6-8 reps with one arm at a time (do not alternate)"
+            }
+          ]
+        },
+        {
+          "day": "Legs #2",
+          "workouts": [
+            {
+              "exercise": "Hack Squat",
+              "video": "https://youtu.be/wEgQUCdtFLg",
+              "warm_up_sets": "3-4",
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": "9-10",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Allow your knees to come forward (past your toes), focus the tension on your quads"
+            },
+            {
+              "exercise": "Dumbbell Walking Lunge",
+              "video": "https://youtu.be/Y4Vv2ASsyhs?t=536",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting."
+            },
+            {
+              "exercise": "Seated Leg Curl",
+              "video": "https://youtu.be/2CMmuH4qJh0",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Lying Leg Curl",
+                  "video": "https://www.youtube.com/watch?v=e_48W0vlU58&feature=youtu.be"
+                },
+                {
+                  "option": "Nordic Ham Curl",
+                  "video": "https://youtu.be/qVek72z3F1U?t=683"
+                }
+              ],
+              "notes": "Focus on squeezing your hamstrings to move the weight"
+            },
+            {
+              "exercise": "Standing Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=162",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Seated Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=311"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Decline Plate-Weighted Crunch",
+              "video": "https://youtu.be/Aos574-Brzw",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Crunch",
+                  "video": "https://youtu.be/2RrGnjxSsiA?t=124"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Mandatory Rest Day",
+          "workouts": []
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        {
+          "day": "Push #1",
+          "workouts": [
+            {
+              "exercise": "Bench Press",
+              "video": "https://youtu.be/vcBig73ojpE?t=134",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                },
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                }
+              ],
+              "notes": "Set up a comfortable arch, quick pause on the chest and explode up on each rep"
+            },
+            {
+              "exercise": "High-Incline Smith Machine Press",
+              "video": "https://youtu.be/egBQ9Svdnok",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Incline DB Press",
+                  "video": "https://www.youtube.com/watch?v=p2t9daxLpB8"
+                },
+                {
+                  "option": "Incline Machine Press",
+                  "video": "https://youtu.be/b8fYnZ-usP0"
+                }
+              ],
+              "notes": "Set the bench at a 45-60° incline, touch the bar to your upper chest with control"
+            },
+            {
+              "exercise": "Egyptian Cable Lateral Raise",
+              "video": "https://youtu.be/SJqInYJcg5k?t=653",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Machine Lateral Raise",
+                  "video": "https://youtu.be/-9QsrJ542ao"
+                }
+              ],
+              "notes": "Lean away from the cable. Focus on squeezing your delts."
+            },
+            {
+              "exercise": "Overhead Cable Triceps Extension",
+              "video": "https://youtu.be/qIW3z-ydg-M",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Floor Skull Crusher",
+                  "video": "https://youtu.be/_IlI2plHp9g"
+                },
+                {
+                  "option": "DB French Press",
+                  "video": "https://youtu.be/K4E8CXajqfQ"
+                }
+              ],
+              "notes": "Do both arms at once, resist the negative"
+            },
+            {
+              "exercise": "Cable Triceps Kickback",
+              "video": "https://youtu.be/94DXwlcX8Po?t=327",
+              "warm_up_sets": 1,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                },
+                {
+                  "option": "Triceps Pressdown",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=106"
+                }
+              ],
+              "notes": "Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)"
+            }
+          ]
+        },
+        {
+          "day": "Pull #1",
+          "workouts": [
+            {
+              "exercise": "Neutral-Grip Lat Pulldown",
+              "video": "https://youtu.be/12xHxUnBEiI?t=240",
+              "warm_up_sets": 3,
+              "working_sets": 3,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Neutral-Grip Pull-Up",
+                  "video": "https://youtu.be/3FnK1F28UBg"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Pull your elbows down against your sides"
+            },
+            {
+              "exercise": "Pendlay Row",
+              "video": "https://youtu.be/axoeDmW0oAY?t=185",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Meadows Row",
+                  "video": "https://youtu.be/f2JDJV0AnyY?t=336"
+                },
+                {
+                  "option": "Single-Arm Row",
+                  "video": "https://youtu.be/djKXLt7kv7Q?t=115"
+                }
+              ],
+              "notes": "Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum"
+            },
+            {
+              "exercise": "Reverse Pec Deck",
+              "video": "https://youtu.be/qfc70k40318?t=259",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Reverse Cable Flye",
+                  "video": "https://youtu.be/uCV40OQMGpM"
+                },
+                {
+                  "option": "Bent-Over Reverse DB Flye",
+                  "video": "https://youtu.be/qfc70k40318?t=311"
+                }
+              ],
+              "notes": "Swing the weight \"out\", not \"back\""
+            },
+            {
+              "exercise": "EZ-Bar Curl",
+              "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Arc the bar \"out\" not \"up\", focus on squeezing your biceps"
+            },
+            {
+              "exercise": "Hammer Cheat Curl",
+              "video": "https://youtu.be/qVek72z3F1U?t=536",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Inverse Zottman Curl",
+                  "video": "https://youtu.be/oU0Lb2dD_js"
+                },
+                {
+                  "option": "DB Curl",
+                  "video": "https://youtu.be/i1YgFZB6alI?t=487"
+                }
+              ],
+              "notes": "You can use slight momentum on the concentric, but control the eccentric with your elbows stationary"
+            }
+          ]
+        },
+        {
+          "day": "Legs #1",
+          "workouts": [
+            {
+              "exercise": "Squat or Machine Squat",
+              "video": "https://youtu.be/bEv6CCg2BC8?t=147",
+              "warm_up_sets": "3-4",
+              "working_sets": 1,
+              "reps": "3-5",
+              "load": null,
+              "rpe": "8-9",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Sit back and down, keep your upper back tight to the bar"
+            },
+            {
+              "exercise": "Barbell RDL",
+              "video": "https://youtu.be/_oyxCn2iSjU?t=95",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB RDL",
+                  "video": "https://youtu.be/V5u2AP9wBwE"
+                },
+                {
+                  "option": "45° Hyperextension",
+                  "video": "https://youtu.be/J46aPqFl0WE?t=178"
+                }
+              ],
+              "notes": "Maintain a neutral lower back, set your hips back, don't allow your spine to round"
+            },
+            {
+              "exercise": "Leg Extension",
+              "video": "https://youtu.be/ljO4jkwv8wQ?t=203",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Focus on squeezing your quads to make the weight move."
+            },
+            {
+              "exercise": "Seated Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=311",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Standing Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=162"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Cable Crunch",
+              "video": "https://youtu.be/2RrGnjxSsiA?t=124",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Plate-Weighted Crunch",
+                  "video": "https://youtu.be/PRcz1uIkqko"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Push #2",
+          "workouts": [
+            {
+              "exercise": "Seated DB Shoulder Press",
+              "video": "https://youtu.be/ae9IxwoEpQ8?t=507",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Shoulder Press",
+                  "video": "https://www.youtube.com/watch?v=flr4ohSl0j8"
+                },
+                {
+                  "option": "Standing DB Arnold Press",
+                  "video": "https://www.youtube.com/watch?v=zOpA1Op0zvc"
+                }
+              ],
+              "notes": "Bring the dumbbells all the way down, keep your torso upright"
+            },
+            {
+              "exercise": "Weighted Dip",
+              "video": "https://youtu.be/yN6Q1UI_xkE?t=75",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Chest Press",
+                  "video": "https://youtu.be/k1S_Any3NIA?t=240"
+                },
+                {
+                  "option": "DB Bench Press",
+                  "video": "https://youtu.be/URQ1Wn7lY3A"
+                }
+              ],
+              "notes": "Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip"
+            },
+            {
+              "exercise": "Machine Lateral Raise",
+              "video": "https://youtu.be/-9QsrJ542ao",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "DB Lateral Raise",
+                  "video": "https://youtu.be/v_ZkxWzYnMc?t=215"
+                },
+                {
+                  "option": "Cable Lateral Raise",
+                  "video": "https://youtu.be/SJqInYJcg5k?t=653"
+                }
+              ],
+              "notes": "Focus on squeezing your lateral delt to move the weight"
+            },
+            {
+              "exercise": "Triceps Pressdown",
+              "video": "https://youtu.be/94DXwlcX8Po?t=106",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Triceps Kickback",
+                  "video": "https://youtu.be/94DXwlcX8Po?t=327"
+                },
+                {
+                  "option": "DB Triceps Kickback",
+                  "video": "https://youtu.be/C6UcPm7mdE4"
+                }
+              ],
+              "notes": "Focus on squeezing your triceps to move the weight"
+            }
+          ]
+        },
+        {
+          "day": "Pull #2",
+          "workouts": [
+            {
+              "exercise": "Wide-Grip Pull-Up",
+              "video": "https://youtu.be/a4N566qMdIY",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "Wide-Grip Lat Pulldown",
+                  "video": "https://youtu.be/qVek72z3F1U?t=927"
+                },
+                {
+                  "option": "Machine Pulldown",
+                  "video": "https://youtu.be/j8Q50oBDK44"
+                }
+              ],
+              "notes": "Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible."
+            },
+            {
+              "exercise": "Close-Grip Seated Cable Row",
+              "video": "https://youtu.be/PAXkl-AdJFg?t=335",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "T-Bar Row",
+                  "video": "https://youtu.be/160n9FBX84s"
+                },
+                {
+                  "option": "Incline Chest-Supported DB Row",
+                  "video": "https://youtu.be/bsx8PIGIuaI"
+                }
+              ],
+              "notes": "Focus on squeezing your shoulder blades together, drive your elbows down and back."
+            },
+            {
+              "exercise": "Machine Shrug",
+              "video": "https://youtu.be/B7kptxZ-1Do",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Shrug-In",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=354"
+                },
+                {
+                  "option": "DB Shrug",
+                  "video": "https://youtu.be/C6sYjDFuq9I?t=327"
+                }
+              ],
+              "notes": "Shrug up and in. Pull your shoulders up to your ears."
+            },
+            {
+              "exercise": "Alternating DB Curl",
+              "video": "https://youtu.be/i1YgFZB6alI?t=487",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "EZ Bar Curl",
+                  "video": "https://www.youtube.com/watch?v=Dd0t5UOCEUc"
+                },
+                {
+                  "option": "Cable Curl",
+                  "video": "https://youtu.be/tw1h5XOD23Y"
+                }
+              ],
+              "notes": "Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm."
+            },
+            {
+              "exercise": "1-Arm DB Preacher Curl",
+              "video": "https://youtu.be/x4YNi4nRboU?t=268",
+              "warm_up_sets": 1,
+              "working_sets": 1,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "0 min",
+              "substitution_options": [
+                {
+                  "option": "Spider Curl",
+                  "video": "https://www.youtube.com/watch?v=ebyOmAZUqzo&t=698s"
+                },
+                {
+                  "option": "Bayesian Cable Curl",
+                  "video": "https://youtu.be/acC5hLyjEDI"
+                }
+              ],
+              "notes": "Here, do all 6-8 reps with one arm at a time (do not alternate)"
+            }
+          ]
+        },
+        {
+          "day": "Legs #2",
+          "workouts": [
+            {
+              "exercise": "Hack Squat",
+              "video": "https://youtu.be/wEgQUCdtFLg",
+              "warm_up_sets": "3-4",
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": "9-10",
+              "rest": "~3-5 min",
+              "substitution_options": [
+                {
+                  "option": "Machine Squat",
+                  "video": "https://youtu.be/N56STpGGRYE"
+                },
+                {
+                  "option": "Bulgarian Split Squat",
+                  "video": "https://youtu.be/htDXu61MPio"
+                }
+              ],
+              "notes": "Allow your knees to come forward (past your toes), focus the tension on your quads"
+            },
+            {
+              "exercise": "Dumbbell Walking Lunge",
+              "video": "https://youtu.be/Y4Vv2ASsyhs?t=536",
+              "warm_up_sets": 3,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~3-4 min",
+              "substitution_options": [
+                {
+                  "option": "DB Step-Up",
+                  "video": "https://youtu.be/cP77gUDvAPA?t=745"
+                },
+                {
+                  "option": "Goblet Squat",
+                  "video": "https://youtu.be/v-mQm_droHg?t=489"
+                }
+              ],
+              "notes": "Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting."
+            },
+            {
+              "exercise": "Seated Leg Curl",
+              "video": "https://youtu.be/2CMmuH4qJh0",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "4-6",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Lying Leg Curl",
+                  "video": "https://www.youtube.com/watch?v=e_48W0vlU58&feature=youtu.be"
+                },
+                {
+                  "option": "Nordic Ham Curl",
+                  "video": "https://youtu.be/qVek72z3F1U?t=683"
+                }
+              ],
+              "notes": "Focus on squeezing your hamstrings to move the weight"
+            },
+            {
+              "exercise": "Standing Calf Raise",
+              "video": "https://youtu.be/-qsRtp_PbVM?t=162",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Seated Calf Raise",
+                  "video": "https://youtu.be/-qsRtp_PbVM?t=311"
+                },
+                {
+                  "option": "Leg Press Toe Press",
+                  "video": "https://youtu.be/VJ_9xii47Sk"
+                }
+              ],
+              "notes": "Press all the way up to your toes, stretch your calves at the bottom, don't bounce"
+            },
+            {
+              "exercise": "Decline Plate-Weighted Crunch",
+              "video": "https://youtu.be/Aos574-Brzw",
+              "warm_up_sets": 2,
+              "working_sets": 2,
+              "reps": "6-8",
+              "load": null,
+              "rpe": 10,
+              "rest": "~2-3 min",
+              "substitution_options": [
+                {
+                  "option": "Cable Crunch",
+                  "video": "https://youtu.be/2RrGnjxSsiA?t=124"
+                },
+                {
+                  "option": "Machine Crunch",
+                  "video": "https://youtu.be/zU6X6DLCH_U"
+                }
+              ],
+              "notes": "Round your back as you crunch"
+            }
+          ]
+        },
+        {
+          "day": "Mandatory Rest Day",
+          "workouts": []
+        }
+      ]
+    }
+  ]
+}
