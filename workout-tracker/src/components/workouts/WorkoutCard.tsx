@@ -1,26 +1,52 @@
-import { Card, CardContent, Typography, Chip, Box } from '@mui/material';
-import { Exercise } from '../../types';
+import { Card, CardContent, Typography, Chip, Box, IconButton } from '@mui/material'
+import { ExpandMore, ExpandLess } from '@mui/icons-material'
+import { useState } from 'react'
+import type { Exercise } from '../../types'
 
 interface WorkoutCardProps {
-  exercise: Exercise;
+  exercise: Exercise
 }
 
 export const WorkoutCard = ({ exercise }: WorkoutCardProps) => {
+  const [expanded, setExpanded] = useState(false)
+
   return (
     <Card>
       <CardContent>
-        <Typography variant="h6" gutterBottom>
-          {exercise.name}
-        </Typography>
+        <Box display="flex" justifyContent="space-between" alignItems="center">
+          <Typography variant="h6" gutterBottom>
+            {exercise.name}
+          </Typography>
+          <IconButton 
+            onClick={() => setExpanded(!expanded)}
+            data-testid="expand-button"
+            aria-label={expanded ? 'show less' : 'show more'}
+          >
+            {expanded ? <ExpandLess /> : <ExpandMore />}
+          </IconButton>
+        </Box>
         <Box display="flex" gap={1} mb={1}>
+          <Chip label={`${exercise.warmupSets} warmup sets`} size="small" />
           <Chip label={`${exercise.workingSets} sets`} size="small" />
           <Chip label={`${exercise.reps} reps`} size="small" />
           <Chip label={`RPE ${exercise.rpe}`} size="small" />
         </Box>
-        <Typography variant="body2" color="text.secondary">
-          {exercise.notes}
-        </Typography>
+        {expanded && (
+          <Box mt={2}>
+            <Typography variant="body2" color="text.secondary" gutterBottom>
+              Rest: {exercise.rest}
+            </Typography>
+            {exercise.substitutions.length > 0 && (
+              <Typography variant="body2" color="text.secondary" gutterBottom>
+                Substitutions: {exercise.substitutions.join(', ')}
+              </Typography>
+            )}
+            <Typography variant="body2" color="text.secondary">
+              {exercise.notes}
+            </Typography>
+          </Box>
+        )}
       </CardContent>
     </Card>
-  );
-};
+  )
+}

@@ -1,9 +1,14 @@
-import { Box, Typography } from '@mui/material';
+import { Grid, Box, Typography } from '@mui/material';
 import { WorkoutCard } from './WorkoutCard';
 import { useWorkoutContext } from '../../context/WorkoutContext';
 import { LoadingSpinner } from '../common/LoadingSpinner';
+import type { Exercise } from '../../types';
 
-export const WorkoutList = () => {
+interface WorkoutListProps {
+  exercises: Exercise[];
+}
+
+export const WorkoutList = ({ exercises }: WorkoutListProps) => {
   const { workouts } = useWorkoutContext();
 
   if (!workouts.length) {
@@ -11,17 +16,12 @@ export const WorkoutList = () => {
   }
 
   return (
-    <Box>
-      {workouts.map((workout, index) => (
-        <Box key={index} mb={2}>
-          <Typography variant="h5" gutterBottom>
-            {workout.name} - Week {workout.week}
-          </Typography>
-          {workout.exercises.map((exercise, idx) => (
-            <WorkoutCard key={idx} exercise={exercise} />
-          ))}
-        </Box>
+    <Grid container spacing={2} padding={2}>
+      {exercises.map((exercise, index) => (
+        <Grid item xs={12} sm={6} md={4} key={`${exercise.name}-${index}`}>
+          <WorkoutCard exercise={exercise} />
+        </Grid>
       ))}
-    </Box>
+    </Grid>
   );
 };
