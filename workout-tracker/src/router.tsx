@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { Layout } from './components/layout/Layout'
-import { WorkoutList } from './components/workouts/WorkoutList'
+import { WorkoutList } from './features/workouts'
+import { ExercisesPage } from './features/exercises'
 
 export const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
       },
       {
         path: 'exercises',
-        element: <div>Exercises Page</div>
+        element: <ExercisesPage />
       }
     ]
   }

@@ -4,7 +4,7 @@ import { WorkoutCard } from '../WorkoutCard'
 
 describe('WorkoutCard', () => {
   const mockExercise = {
-    id: '1', // Added id field
+    id: '1',
     name: 'Bench Press',
     warmupSets: '2',
     workingSets: '3',

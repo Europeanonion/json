@@ -1,7 +1,7 @@
 import { Card, CardContent, Typography, Chip, Box, IconButton } from '@mui/material'
 import { ExpandMore, ExpandLess } from '@mui/icons-material'
 import { useState } from 'react'
-import type { Exercise } from '../../types'
+import type { Exercise } from '../../exercises/types/exercise.types'
 
 interface WorkoutCardProps {
   exercise: Exercise
