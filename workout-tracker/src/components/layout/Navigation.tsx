@@ -1,19 +1,30 @@
-import { BottomNavigation, BottomNavigationAction } from '@mui/material';
-import { FitnessCenter, Timeline, Settings } from '@mui/icons-material';
-import { useState } from 'react';
+import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material'
+import { Link as RouterLink } from 'react-router-dom'
 
 export const Navigation = () => {
-  const [value, setValue] = useState(0);
-
   return (
-    <BottomNavigation
-      value={value}
-      onChange={(_, newValue) => setValue(newValue)}
-      sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}
-    >
-      <BottomNavigationAction label="Workouts" icon={<FitnessCenter />} />
-      <BottomNavigationAction label="Progress" icon={<Timeline />} />
-      <BottomNavigationAction label="Settings" icon={<Settings />} />
-    </BottomNavigation>
-  );
-};
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Workout Tracker
+        </Typography>
+        <Box component="nav">
+          <Button
+            component={RouterLink}
+            to="/workouts"
+            color="inherit"
+          >
+            Workouts
+          </Button>
+          <Button
+            component={RouterLink}
+            to="/exercises"
+            color="inherit"
+          >
+            Exercises
+          </Button>
+        </Box>
+      </Toolbar>
+    </AppBar>
+  )
+}

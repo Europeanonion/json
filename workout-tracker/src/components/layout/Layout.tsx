@@ -1,16 +1,14 @@
-import { Box, Container } from '@mui/material';
-import { Navigation } from './Navigation';
-import { ReactNode } from 'react';
+import { Box } from '@mui/material'
+import { Outlet } from 'react-router-dom'
+import { Navigation } from './Navigation'
 
-interface LayoutProps {
-  children: ReactNode;
+export const Layout = () => {
+  return (
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <Navigation />
+      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+        <Outlet />
+      </Box>
+    </Box>
+  )
 }
-
-export const Layout = ({ children }: LayoutProps) => (
-  <Box sx={{ pb: 7 }}>
-    <Container maxWidth="sm">
-      {children}
-    </Container>
-    <Navigation />
-  </Box>
-);

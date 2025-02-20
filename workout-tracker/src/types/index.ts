@@ -1,12 +1,13 @@
 export interface Exercise {
-  name: string;
-  warmupSets: string;
-  workingSets: string;
-  reps: string;
-  rpe: string;
-  rest: string;
-  substitutions: string[];
-  notes: string;
+  id: string
+  name: string
+  warmupSets: string
+  workingSets: string
+  reps: string
+  rpe: string
+  rest: string
+  substitutions: string[]
+  notes: string
 }
 
 export interface Workout {
@@ -20,4 +21,9 @@ export interface WorkoutContextType {
   workouts: Workout[];
   addWorkout: (workout: Workout) => void;
   updateWorkout: (id: number, workout: Workout) => void;
+}
+
+export interface WorkoutState {
+  exercises: Exercise[]
+  selectedExercise: Exercise | null
 }

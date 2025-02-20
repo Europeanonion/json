@@ -1,72 +1,116 @@
-import { createContext, useContext, ReactNode, useState } from 'react';
-import { Workout, Exercise } from '../types';
+import { createContext, useContext, useReducer } from 'react'
+import { useLocalStorage } from '../hooks/useLocalStorage'
+import type { Exercise, WorkoutState } from '../types'
 import { render, screen, fireEvent } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
 
-interface WorkoutContextType {
-  workouts: Workout[];
-  addWorkout: (workout: Workout) => void;
-  exercises: Exercise[];
-  addExercise: (exercise: Exercise) => void;
-  removeExercise: (index: number) => void;
+type Action =
+  | { type: 'ADD_EXERCISE'; payload: Exercise }
+  | { type: 'REMOVE_EXERCISE'; payload: string }
+  | { type: 'UPDATE_EXERCISE'; payload: Exercise }
+  | { type: 'SET_ERROR'; payload: Error }
+  | { type: 'SET_LOADING'; payload: boolean }
+
+const initialState: WorkoutState = {
+  exercises: [],
+  selectedExercise: null,
+  isLoading: false,
+  error: null
 }
 
-const WorkoutContext = createContext<WorkoutContextType | undefined>(undefined);
+function workoutReducer(state: WorkoutState, action: Action): WorkoutState {
+  switch (action.type) {
+    case 'ADD_EXERCISE':
+      return {
+        ...state,
+        exercises: [...state.exercises, action.payload],
+        error: null
+      }
+    case 'REMOVE_EXERCISE':
+      return {
+        ...state,
+        exercises: state.exercises.filter(ex => ex.id !== action.payload),
+        selectedExercise: null,
+        error: null
+      }
+    case 'UPDATE_EXERCISE':
+      return {
+        ...state,
+        exercises: state.exercises.map(ex => 
+          ex.id === action.payload.id ? action.payload : ex
+        ),
+        error: null
+      }
+    case 'SET_ERROR':
+      return {
+        ...state,
+        error: action.payload,
+        isLoading: false
+      }
+    case 'SET_LOADING':
+      return {
+        ...state,
+        isLoading: action.payload
+      }
+    default:
+      return state
+  }
+}
 
-export const WorkoutProvider = ({ children }: { children: ReactNode }) => {
-  const [workouts, setWorkouts] = useState<Workout[]>([]);
-  const [exercises, setExercises] = useState<Exercise[]>([]);
+const WorkoutContext = createContext<{
+  state: WorkoutState;
+  dispatch: React.Dispatch<Action>;
+} | undefined>(undefined)
 
-  const addWorkout = (workout: Workout) => {
-    setWorkouts(prev => [...prev, workout]);
-  };
-
-  const addExercise = (exercise: Exercise) => {
-    setExercises([...exercises, exercise]);
-  };
-
-  const removeExercise = (index: number) => {
-    setExercises(exercises.filter((_, i) => i !== index));
-  };
+export function WorkoutProvider({ children }: { children: React.ReactNode }) {
+  const [savedExercises, setSavedExercises] = useLocalStorage<Exercise[]>('exercises', [])
+  const [state, dispatch] = useReducer(workoutReducer, {
+    ...initialState,
+    exercises: savedExercises
+  })
 
   return (
-    <WorkoutContext.Provider value={{ workouts, addWorkout, exercises, addExercise, removeExercise }}>
+    <WorkoutContext.Provider value={{ state, dispatch }}>
       {children}
     </WorkoutContext.Provider>
-  );
-};
+  )
+}
 
-export const useWorkoutContext = () => {
-  const context = useContext(WorkoutContext);
-  if (context === undefined) {
-    throw new Error('useWorkoutContext must be used within a WorkoutProvider');
+export function useWorkout() {
+  const context = useContext(WorkoutContext)
+  if (!context) {
+    throw new Error('useWorkout must be used within a WorkoutProvider')
   }
-  return context;
-};
+  return context
+}
 
 const TestComponent = () => {
-  const { exercises, addExercise, removeExercise } = useWorkoutContext()
+  const { state, dispatch } = useWorkout()
 
   const handleAdd = () => {
-    addExercise({
-      name: 'Test Exercise',
-      warmupSets: '2',
-      workingSets: '3',
-      reps: '8-12',
-      rpe: '8',
-      rest: '2-3 min',
-      substitutions: [],
-      notes: 'Test note'
+    dispatch({
+      type: 'ADD_EXERCISE',
+      payload: {
+        id: '1',
+        name: 'Test Exercise',
+        warmupSets: '2',
+        workingSets: '3',
+        reps: '8-12',
+        rpe: '8',
+        rest: '2-3 min',
+        substitutions: [],
+        notes: 'Test note'
+      }
     })
   }
 
   return (
     <div>
       <button onClick={handleAdd}>Add Exercise</button>
-      {exercises.map((exercise, index) => (
+      {state.exercises.map((exercise, index) => (
         <div key={index} data-testid="exercise-item">
           <span>{exercise.name}</span>
-          <button onClick={() => removeExercise(index)}>Remove</button>
+          <button onClick={() => dispatch({ type: 'REMOVE_EXERCISE', payload: exercise.id })}>Remove</button>
         </div>
       ))}
     </div>
@@ -95,7 +139,7 @@ describe('WorkoutContext', () => {
 
   it('throws error when used outside provider', () => {
     expect(() => render(<TestComponent />)).toThrow(
-      'useWorkoutContext must be used within a WorkoutProvider'
+      'useWorkout must be used within a WorkoutProvider'
     )
   })
 })

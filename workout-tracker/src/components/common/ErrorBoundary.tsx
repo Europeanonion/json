@@ -1,42 +1,41 @@
-import { Component, ErrorInfo, ReactNode } from 'react';
-import { Box, Typography, Button } from '@mui/material';
+import { Component, ErrorInfo, ReactNode } from 'react'
 
 interface Props {
-  children: ReactNode;
+  children: ReactNode
 }
 
 interface State {
-  hasError: boolean;
-  error?: Error;
+  hasError: boolean
+  error?: Error
 }
 
 export class ErrorBoundary extends Component<Props, State> {
-  public state: State = {
-    hasError: false
-  };
-
-  public static getDerivedStateFromError(error: Error): State {
-    return { hasError: true, error };
+  constructor(props: Props) {
+    super(props)
+    this.state = { hasError: false }
   }
 
-  public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    console.error('Uncaught error:', error, errorInfo);
+  static getDerivedStateFromError(error: Error): State {
+    return { hasError: true, error }
   }
 
-  public render() {
+  componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
+    console.error('ErrorBoundary caught an error:', error, errorInfo)
+  }
+
+  render() {
     if (this.state.hasError) {
       return (
-        <Box p={3} textAlign="center">
-          <Typography variant="h5" gutterBottom>
-            Something went wrong
-          </Typography>
-          <Button variant="contained" onClick={() => window.location.reload()}>
-            Reload Page
-          </Button>
-        </Box>
-      );
+        <div role="alert" className="error-boundary">
+          <h2>Something went wrong.</h2>
+          <details>
+            <summary>Error details</summary>
+            <pre>{this.state.error?.message}</pre>
+          </details>
+        </div>
+      )
     }
 
-    return this.props.children;
+    return this.props.children
   }
 }
