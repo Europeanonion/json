@@ -8,13 +8,26 @@ interface ExerciseProviderProps {
   children: React.ReactNode
 }
 
-const validateExercise = (exercise: Exercise): boolean => {
-  return Boolean(
-    exercise.id &&
-    exercise.name &&
-    typeof exercise.name === 'string' &&
-    exercise.name.length > 0
-  )
+const validateExercise = (exercise: Exercise): { isValid: boolean; errors: string[] } => {
+  const errors: string[] = []
+  
+  if (!exercise.id) {
+    errors.push('Exercise ID is required')
+  }
+  if (!exercise.name) {
+    errors.push('Exercise name is required')
+  }
+  if (typeof exercise.name !== 'string') {
+    errors.push('Exercise name must be a string')
+  }
+  if (exercise.name && exercise.name.length === 0) {
+    errors.push('Exercise name cannot be empty')
+  }
+
+  return {
+    isValid: errors.length === 0,
+    errors
+  }
 }
 
 export function ExerciseProvider({ children }: ExerciseProviderProps) {

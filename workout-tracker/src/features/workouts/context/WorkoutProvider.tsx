@@ -8,16 +8,35 @@ interface WorkoutProviderProps {
   children: React.ReactNode
 }
 
-const validateWorkout = (workout: Workout): boolean => {
-  return Boolean(
-    workout.id &&
-    workout.name &&
-    typeof workout.name === 'string' &&
-    workout.name.length > 0 &&
-    Array.isArray(workout.exercises) &&
-    typeof workout.week === 'number' &&
-    workout.phase
-  )
+const validateWorkout = (workout: Workout): { isValid: boolean; errors: string[] } => {
+  const errors: string[] = []
+  
+  if (!workout.id) {
+    errors.push('Workout ID is required')
+  }
+  if (!workout.name) {
+    errors.push('Workout name is required')
+  }
+  if (typeof workout.name !== 'string') {
+    errors.push('Workout name must be a string')
+  }
+  if (workout.name && workout.name.length === 0) {
+    errors.push('Workout name cannot be empty')
+  }
+  if (!Array.isArray(workout.exercises)) {
+    errors.push('Exercises must be an array')
+  }
+  if (typeof workout.week !== 'number') {
+    errors.push('Week must be a number')
+  }
+  if (!workout.phase) {
+    errors.push('Phase is required')
+  }
+
+  return {
+    isValid: errors.length === 0,
+    errors
+  }
 }
 
 export function WorkoutProvider({ children }: WorkoutProviderProps) {
