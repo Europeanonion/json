@@ -2,12 +2,15 @@ import { Card, CardContent, Typography, Chip, Box, IconButton } from '@mui/mater
 import { ExpandMore, ExpandLess } from '@mui/icons-material'
 import { useState } from 'react'
 import type { Exercise } from '../../exercises/types/exercise.types'
+import type { Workout } from '../types/workout.types'
+
 
 interface WorkoutCardProps {
   exercise: Exercise
+  workout: Workout
 }
 
-export const WorkoutCard = ({ exercise }: WorkoutCardProps) => {
+export const WorkoutCard = ({ exercise, workout }: WorkoutCardProps) => {
   const [expanded, setExpanded] = useState(false)
 
   return (

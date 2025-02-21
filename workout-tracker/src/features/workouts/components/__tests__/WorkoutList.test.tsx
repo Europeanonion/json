@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
-import { WorkoutList } from '../WorkoutList'
+import WorkoutList from '../WorkoutList'
 import { WorkoutContext } from '../../context/WorkoutContext'
 
 describe('WorkoutList', () => {
@@ -30,13 +30,34 @@ describe('WorkoutList', () => {
   ]
 
   const mockState = {
-    workouts: [{
-      id: '1',
-      name: 'Workout 1',
-      phase: 'Strength',
-      week: 1,
-      exercises: mockExercises
-    }],
+    workouts: [
+      {
+        id: '1',
+        name: 'Workout 1',
+        phase: 'Strength',
+        week: 1,
+        exercises: mockExercises
+      },
+      {
+        id: '2',
+        name: 'Workout 2',
+        phase: 'Hypertrophy',
+        week: 2,
+        exercises: [
+          {
+            id: '3',
+            name: 'Deadlift',
+            warmupSets: '2',
+            workingSets: '3',
+            reps: '5',
+            rpe: '9',
+            rest: '3-5 min',
+            substitutions: [],
+            notes: 'Focus on form'
+          }
+        ]
+      }
+    ],
     selectedWorkout: null,
     isLoading: false,
     error: null
@@ -54,6 +75,7 @@ describe('WorkoutList', () => {
     renderWithContext()
     expect(screen.getByText('Bench Press')).toBeInTheDocument()
     expect(screen.getByText('Squat')).toBeInTheDocument()
+    expect(screen.getByText('Deadlift')).toBeInTheDocument()
   })
 
   it('shows loading spinner when no workouts', () => {

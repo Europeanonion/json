@@ -3,12 +3,13 @@ import { useLocalStorage } from '../../../shared/hooks/useLocalStorage'
 import { WorkoutContext } from './WorkoutContext'
 import { workoutReducer, initialWorkoutState } from './workoutReducer'
 import type { Workout } from '../types/workout.types'
+import type { Exercise } from '../../exercises/types/exercise.types'
 
 interface WorkoutProviderProps {
   children: React.ReactNode
 }
 
-const validateWorkout = (workout: Workout): { isValid: boolean; errors: string[] } => {
+const validateWorkout = (workout: Workout, availableExercises: Exercise[]): { isValid: boolean; errors: string[] } => {
   const errors: string[] = []
   
   if (!workout.id) {
@@ -33,6 +34,14 @@ const validateWorkout = (workout: Workout): { isValid: boolean; errors: string[]
     errors.push('Phase is required')
   }
 
+  // Validate exercise references
+  const availableExerciseIds = new Set(availableExercises.map(e => e.id))
+  workout.exercises.forEach((exercise, index) => {
+    if (!availableExerciseIds.has(exercise.id)) {
+      errors.push(`Exercise at index ${index} (${exercise.name}) is not available`)
+    }
+  })
+
   return {
     isValid: errors.length === 0,
     errors
@@ -43,6 +52,7 @@ export function WorkoutProvider({ children }: WorkoutProviderProps) {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<Error | null>(null)
   const [savedWorkouts, setSavedWorkouts] = useLocalStorage<Workout[]>('workouts', [])
+  const [savedExercises] = useLocalStorage<Exercise[]>('exercises', [])
   
   const [state, dispatch] = useReducer(workoutReducer, {
     ...initialWorkoutState,
@@ -56,8 +66,16 @@ export function WorkoutProvider({ children }: WorkoutProviderProps) {
     const syncToStorage = async () => {
       try {
         setIsLoading(true)
+        // Clean up deleted exercise references and validate workouts
+        const updatedWorkouts = state.workouts.map(workout => ({
+          ...workout,
+          exercises: workout.exercises.filter(exercise => 
+            savedExercises.some(e => e.id === exercise.id)
+          )
+        }))
+
         // Validate workouts before saving
-        const validWorkouts = state.workouts.filter(validateWorkout)
+        const validWorkouts = updatedWorkouts.filter(workout => validateWorkout(workout, savedExercises).isValid)
         if (validWorkouts.length !== state.workouts.length) {
           console.warn('Some workouts failed validation and were not saved')
         }

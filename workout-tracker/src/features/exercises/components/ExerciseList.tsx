@@ -1,19 +1,25 @@
 import React from 'react'
-import { 
-  Grid, 
-  Card, 
-  CardContent, 
-  Typography, 
+import {
+  Grid,
+  Card,
+  CardContent,
+  Typography,
   IconButton,
   Box,
-  Chip
+  Chip,
+  List,
+  ListItem,
+  ListItemText,
+  ListItemIcon
 } from '@mui/material'
 import { Delete as DeleteIcon, Edit as EditIcon } from '@mui/icons-material'
 import { useExerciseContext } from '../hooks/useExerciseContext'
 import { LoadingSpinner } from '../../../components/common/LoadingSpinner'
+import { ExerciseActionType } from '../types/exercise.types'
 
 export const ExerciseList: React.FC = () => {
   const { state, dispatch } = useExerciseContext()
+
 
   if (state.isLoading) {
     return <LoadingSpinner />
@@ -29,76 +35,77 @@ export const ExerciseList: React.FC = () => {
     )
   }
 
+
+
   const handleDelete = (id: string) => {
-    dispatch({ type: 'REMOVE_EXERCISE', payload: id })
+    dispatch({ type: ExerciseActionType.REMOVE_EXERCISE, payload: id })
   }
 
   const handleEdit = (id: string) => {
     const exercise = state.exercises.find(ex => ex.id === id)
     if (exercise) {
-      dispatch({ type: 'SELECT_EXERCISE', payload: exercise })
+      dispatch({ type: ExerciseActionType.SELECT_EXERCISE, payload: exercise })
     }
   }
 
   return (
-    <Grid container spacing={2} padding={2}>
+    <List>
       {state.exercises.map(exercise => (
-        <Grid item xs={12} sm={6} md={4} key={exercise.id}>
-          <Card>
-            <CardContent>
-              <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
-                <Typography variant="h6" component="h2">
-                  {exercise.name}
+        <ListItem
+          key={exercise.id}
+          secondaryAction={
+            <Box>
+              <IconButton
+                onClick={() => handleEdit(exercise.id)}
+                aria-label="edit exercise"
+                size="small"
+              >
+                <EditIcon />
+              </IconButton>
+              <IconButton
+                onClick={() => handleDelete(exercise.id)}
+                aria-label="delete exercise"
+                size="small"
+                color="error"
+              >
+                <DeleteIcon />
+              </IconButton>
+            </Box>
+          }
+          sx={{
+            bgcolor: state.selectedExercise?.id === exercise.id ? 'action.selected' : 'background.paper'
+          }}
+        >
+          <ListItemIcon>
+            <Chip label={`RPE ${exercise.rpe}`} size="small" variant="outlined" />
+          </ListItemIcon>
+          <ListItemText
+            primary={exercise.name}
+            secondary={
+              <React.Fragment>
+                <Typography
+                  sx={{ display: 'inline' }}
+                  component="span"
+                  variant="body2"
+                  color="text.primary"
+                >
+                  {`${exercise.warmupSets} warmup sets, ${exercise.workingSets} working sets x ${exercise.reps} reps`}
                 </Typography>
-                <Box>
-                  <IconButton 
-                    onClick={() => handleEdit(exercise.id)}
-                    aria-label="edit exercise"
-                    size="small"
-                  >
-                    <EditIcon />
-                  </IconButton>
-                  <IconButton 
-                    onClick={() => handleDelete(exercise.id)}
-                    aria-label="delete exercise"
-                    size="small"
-                    color="error"
-                  >
-                    <DeleteIcon />
-                  </IconButton>
-                </Box>
-              </Box>
-              <Box display="flex" gap={1} flexWrap="wrap">
-                <Chip 
-                  label={`${exercise.warmupSets} warmup sets`} 
-                  size="small" 
-                  variant="outlined"
-                />
-                <Chip 
-                  label={`${exercise.workingSets} working sets`} 
-                  size="small"
-                  variant="outlined"
-                />
-                <Chip 
-                  label={`${exercise.reps} reps`} 
-                  size="small"
-                  variant="outlined"
-                />
-                <Chip 
-                  label={`RPE ${exercise.rpe}`} 
-                  size="small"
-                  variant="outlined"
-                />
-              </Box>
-              {exercise.notes && (
-                <Typography variant="body2" color="text.secondary" mt={2}>
-                  {exercise.notes}
-                </Typography>
-              )}
-            </CardContent>
-          </Card>
-        </Grid>
+                {exercise.substitutions.length > 0 && (
+                  <Typography variant="body2" color="text.secondary" mt={1}>
+                    Substitutions: {exercise.substitutions.join(', ')}
+                  </Typography>
+                )}
+                {exercise.notes && (
+                  <Typography variant="body2" color="text.secondary" mt={1}>
+                    {exercise.notes}
+                  </Typography>
+                )}
+              </React.Fragment>
+            }
+          />
+        </ListItem>
       ))}
-    </Grid>
+    </List>
   )
 }
